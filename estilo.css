@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    background: #000000;
+    font: 20px Verdana, Geneva, Tahoma, sans-serif;
+    place-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+.banner{
+    width: 99%;
+    height: 500px;
+    background: linear-gradient(to bottom, transparent, black 500px), url('imagens/fotoperfil.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+
+.botoes{
+    place-items: ;
+    place-content: center;
+    text-align: center ;
+
+}
+
+nav a{
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    background: #171717;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 4%;
+    font-size: 70%;
+}
+
+nav a :hover{
+    color: #000000;
+    background: #000000;
+}
+
+#conteudo{
+    width: 600px;
+    border-left: #ffffff;
+
+}
+
+p{
+    color: #efefef;
+    font-family: Helvetica, sans-serif;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border-left: 3px solid #9c9c9c;
+    width: 70%;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 1.9em;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+h2{
+    color: #ffffff;
+    font-size: 1.9em;
+    text-align: center;
+    margin-top: 10px;
+}
+h3{
+    color: #d5d5d5;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    font-size: 70%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#rodape{
+    text-align: center;
+    bottom: 0;
+    padding: 10px;
+    background: #fff;
+    width: 100%;
+}
+
+#center{
+    text-align: center;
+}
+
+h6{
+    color: #787878;
+    text-align: center;
+    font-family: "ITF Devanagari Marathi";
+    text-effect: engrave;
+}
+
+
+
+
+
